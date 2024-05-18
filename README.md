@@ -7,7 +7,7 @@ Modules allow share declarations and definitions across translation units. A mod
 
 There is a simple example inside the *examples* folder, and a script containing the commands to run it.
 
-Here is an article that [compares header files, header units, modules and precompiled header](https://learn.microsoft.com/en-us/cpp/build/compare-inclusion-methods?view=msvc-170). Support for modules of different compiler vendors can be found [here](https://en.cppreference.com/w/cpp/compiler_support) (the Modules row in the 'C++20 core language features' table). [This video](https://www.youtube.com/watch?v=_x9K9_q2ZXE) gives a great introduction to modules.
+Here is an article that [compares header files, header units, modules and precompiled header](https://learn.microsoft.com/en-us/cpp/build/compare-inclusion-methods?view=msvc-170). Support for modules of different compiler vendors can be found [here](https://en.cppreference.com/w/cpp/compiler_support) (the Modules row in the C++20 core language features' table). [This video](https://www.youtube.com/watch?v=_x9K9_q2ZXE) gives a great introduction to modules.
 
 Modules can be structured into several ways:
 - Primary Module Interface Unit
