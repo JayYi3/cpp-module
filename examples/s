@@ -1,0 +1,5 @@
+#!/bin/bash
+
+clang++ -fmodules-ts Hello.cppm --precompile -o Hello.pcm
+clang++ -fmodules-ts main.cpp -fmodule-file=Hello=Hello.pcm Hello.pcm
+./a.out
