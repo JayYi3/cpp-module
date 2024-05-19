@@ -1,6 +1,6 @@
 C++ 20 introduces **modules**, which allow compilers to use "semantic imports" instead of the old text inclusion model.
 
-Modules allow share declarations and definitions across translation units. A module is a *set* of source files that are compiled independently and only once. It has several advantages over header files:
+Modules allow shared declarations and definitions across translation units. A module is a *set* of source files that are compiled independently and only once. It has several advantages over header files:
 - Reduced compilation time.
 - Hide visibility of internal implementations like macros, preprocessor directives, and non-exported names.
 - Modules can be imported in any order without concern for dependencies between headers.
@@ -25,7 +25,7 @@ Modules can be structured into several ways:
 
 - Module Implementation Unit
 
-  Module interface and implementation goes into a separate file(similar header files and source files).
+  Module interface and implementation goes into a separate file(similar to header files and source files).
 
   ```c++
   // File: my_module.cpp
